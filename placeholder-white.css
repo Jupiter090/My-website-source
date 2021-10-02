@@ -1,0 +1,16 @@
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+button:active{
+    box-shadow: none;
+}
+button:hover{
+    cursor: pointer;
+}
