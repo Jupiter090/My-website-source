@@ -3,26 +3,9 @@ Please dont steal code its bad!
 ©All rights reserved
 */
 /**/
-
-/*Fonts*/
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('Fonts/OpenSans/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
-         url('Fonts/OpenSans/opensans-variablefont_wdthwght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'robotoregular';
-    src: url('Fonts/Roboto-font/roboto-regular-webfont.woff2') format('woff2'),
-         url('Fonts/Roboto-font/roboto-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/*Styles */
 body{
     background-color: rgb(228, 228, 228);
+    width: clamp(250px, 1341px, 1342px);
 }
 .div-new{
     display: flex;
@@ -196,7 +179,6 @@ body{
     z-index: -5;
     filter: blur(10px);
 }
-/*Navigation bar style*/
 .index-nav{
     background-color: white;
 }
@@ -204,27 +186,13 @@ body{
     background-color: white;
     display: flex;
     height: 40px;
-    width: 101%;
+    width: clamp(250px, 1341px, 1342px);
     position: relative;
     margin: 0 0 0 0;
     top: -10px;
     left: -10px;
     right: 20px;
     bottom: 0;
-}
-@media (max-width:1300px){
-    .nav-container{
-        background-color: white;
-        display: flex;
-        height: 40px;
-        width: 101%;
-        position: relative;
-        margin: 0 0 0 0;
-        top: -10px;
-        left: -10px;
-        right: 20px;
-        bottom: 0;
-    }
 }
 .nav-button-div{
     display: flex;
@@ -251,7 +219,6 @@ body{
 .nav-button-fit{
     font-size: 75%;
 }
-/*Bg img in index*/
 .img-div{
     display: flex;
     width: 100%;
@@ -304,22 +271,11 @@ body{
     color: white;
     font-weight: bold;
 }
-/* ABout me section in div*/
-.aling-about-me{
-    display: flex;
-    width: 100%;
-    height: 25%;
-    align-items: flex-end;
-}
 .about-me-div{
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
+    display: flexbox;
     width: 400px;
     height: 250px;
-    margin-left: 40%;
+    margin: 0 0 0 500px;
 }
 .about-me-h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -337,10 +293,9 @@ body{
     width: 50px;
     position: relative;
     top: 60px;
-    left: -160px;
+    left: -60px;
     padding-top: -100px;
 }
-/* Stranger things*/
 .s-t-logo{
     border-radius: 25%;
     width: 250px;
@@ -363,7 +318,6 @@ body{
     text-align: right;
     cursor: pointer;
 }
-/* Calculator desing*/
 .calc-bg{
     display: flex;
     
@@ -380,6 +334,14 @@ body{
     width: 450px;
     justify-content: center;
     color: white;
+}
+/*Font for calc result and buttons*/
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('Fonts/OpenSans/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('Fonts/OpenSans/opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 .calc-result-div{
     display: flex;
@@ -436,263 +398,4 @@ body{
     position: absolute;
     width: 250px;
     z-index: 3;
-}
-.aling-center{
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.project-container{
-    display: flex;
-    margin-top: 15px;
-    width: 90%;
-    height: 100px;
-    padding: 0 0 0 0;
-    border-radius: 25px;
-    background-color: rgb(241, 241, 241);
-}
-.project-container:hover{
-    display: flex;
-    margin-top: 15px;
-    width: 90%;
-    height: 100px;
-    padding: 0 0 0 0;
-    border-radius: 25px;
-    background-color: rgb(212, 212, 212);
-    cursor: pointer;
-}
-.project-title{
-    display: flex;
-    flex-direction: row;
-}
-.project-title-img{
-    height: 100%;
-    border-radius: 25px;
-}
-.project-title-heading{
-    margin-top: 00px;
-    width: 100%;
-    height: auto;
-    font-family: 'robotoregular';
-    display: flex;
-    margin-bottom: 0px;
-}
-.project-tags-img{
-    background-color: none;
-    height: 100%;
-    width: 10%;
-}
-.project-tags{
-    display: flex;
-    height: 20%;
-}
-.project-tags-minecraft{
-    display: flex;
-    flex-wrap:initial;
-    width: auto;
-    margin-left: 25px;
-    margin-top: 5px;
-    height: 100%;
-    border-radius: 5px;
-    background-color: rgb(3, 3, 179);
-}
-.project-tags-minecraft-map{
-    display: flex;
-    flex-wrap:initial;
-    width: 18%;
-    margin-left: 25px;
-    margin-top: 5px;
-    height: 100%;
-    border-radius: 5px;
-    background-color: rgb(36, 199, 21);
-}
-.project-tags-console-app{
-    display: flex;
-    flex-wrap:initial;
-    width: 20%;
-    margin-left: 25px;
-    margin-top: 5px;
-    height: 100%;
-    border-radius: 5px;
-    background-color: rgb(36, 36, 36);
-}
-.project-tags-website{
-    display: flex;
-    flex-wrap:initial;
-    width: 25%;
-    margin-left: 25px;
-    margin-top: 5px;
-    height: 100%;
-    border-radius: 5px;
-    background-color: rgb(194, 89, 28);
-}
-.project-tags-p{
-    color: white;
-    display: flex;
-    margin-top: 1px;
-    font-weight: bolder;
-    font-family: 'open_sansregular';
-}
-.project-desc{
-    display: flex;
-    height:min-content;
-}
-.project-desc-p{
-    display: flex;
-    font-family: 'robotoregular';
-    margin-top: 0px;
-}
-.project-images{
-    display: flex;
-    width: 25%;
-    height: 100%;
-    background-color: cadetblue;
-    flex-wrap: wrap;
-}
-.project-images-img{
-    width: 100%;
-    margin-bottom: 20px;
-}
-.align-project-heading{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.project-heading{
-    display: flex;
-    margin: 0 0 0 0;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    background-color: rgb(216, 214, 214);
-    border-radius: 13px 13px 0 0 ;
-}
-.project-desc{
-    display: flex;
-    background-color: rgb(216, 214, 214);
-    border-radius: 25px 25px 0 0;
-    height: 400px;
-}
-.project-desc-pg{
-    display: flex;
-    justify-self: flex-start;
-    width: 75%;
-}
-.project-desc-pg-p{
-    display: flex;
-    margin-left: 15px;
-    font-size: 120%;
-    font-family: 'robotoregular';
-}
-.project-desc-img{
-    display: flex;
-    justify-self: flex-end;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 15%;
-    margin: 0 15px 0 0;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-}
-.project-desc-img-img{
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 17px;
-    margin-top: 15px;
-    margin-right: 100px;
-    height: 25%;
-    width: 105%;
-    flex-wrap: wrap;
-    background-color: rgb(199, 199, 199);
-}
-.project-desc-img-img:hover{
-    cursor: pointer;
-}
-.project-download{
-    display: flex;
-    flex-direction: column;
-    border-radius: 0 0 0px 25px;
-    width: 75%;
-    height: 150px;
-    background-color: rgb(216, 214, 214);
-}
-.project-download-p{
-    display: flex;
-    font-weight: bolder;
-    height: 5%;
-    margin-left: 5px;
-    font-family: 'robotoregular';
-}
-.project-download-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25%;
-    width: 15%;
-    margin-left: 5px;
-    font-family: 'robotoregular';
-    border: none;
-    background-color: rgb(255, 255, 255);
-    border-radius: 14px;
-    font-weight: bold;
-}
-.project-download-btn:hover{
-    background: linear-gradient(
-        -135deg,rgb(66, 27, 238),rgb(161, 27, 238)
-    );
-    cursor: pointer;
-    color: white;
-}
-.project-supported-lang{
-    display: flex;
-    width: 25%;
-    border-radius: 0 0 25px 0 ;
-    background-color: rgb(216, 214, 214);
-    font-weight: bold;
-}
-.hello{
-    display: flex;
-    width: 100%;
-    height: 10%;
-}
-.project-supported-lang-p{
-    font-family: 'robotoregular';
-    font-weight: bold;
-    margin-left: 10px;
-}
-.project-img-full{
-    display: none;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    z-index: 100;
-    height: 110%;
-    width: 100%;
-    background-color: rgba(80, 80, 80, 0.267);
-    justify-content: center;
-    align-items: center;
-}
-.project-img-full-img{
-    width: 90%;
-    height: 90%;
-}
-.project-img-full-btn{
-    position: absolute;
-    border: rgb(119, 119, 119) solid;
-    right: 25px;
-    top: 10px;
-    width: 2%;
-    height: 4%;
-    border-radius: 25px;
-    color: white;
-    background-color: rgba(26, 26, 26, 0.808);
-}
-.project-img-full-btn:active{
-    border: rgb(48, 48, 48) solid;
-    cursor: pointer;
-}
-.project-img-full-btn:hover{
-    cursor: pointer;
 }
