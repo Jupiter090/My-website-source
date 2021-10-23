@@ -638,6 +638,15 @@ body{
     border-radius: 14px;
     font-weight: bold;
 }
+.project-download-a{
+    padding-right: 26.5%;
+    padding-left: 26.5%;
+    color: black;
+    text-decoration: none;
+}
+.project-download-a:hover{
+    color: white;
+}
 .project-download-btn:hover{
     background: linear-gradient(
         -135deg,rgb(66, 27, 238),rgb(161, 27, 238)
