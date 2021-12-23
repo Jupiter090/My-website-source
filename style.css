@@ -21,141 +21,6 @@ Please dont steal code its bad!
 
 }
 /*Styles */
-body{
-    background-color: rgb(228, 228, 228);
-}
-.div-new{
-    display: flex;
-    left: 50px;
-    position: relative;
-    height: 35px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-.bg-color{
-    display: flex;
-    background:
-    linear-gradient(-135deg, blue, rgb(183, 0, 255),rgb(127, 24, 187));
-    width: 1000px;
-    height: 2000px;
-    margin-left: 200px;
-    border: solid white 5px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-}
-.apartmnens{
-    width: 600px;
-    height: 400px;
-    border-radius: 50px;
-}
-.price{
-    color: white;
-    font-size: 200px;
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0px 200px 0px 200px;
-    display: flexbox;
-}
-.h1-div{
-    align-items: center;
-    text-align: center;
-    background:
-    linear-gradient(-135deg, blue, rgb(183, 0, 255));
-    width: 400px;
-    height: 70px;
-    margin-left: 550px;
-    margin-top: 50px;
-    border: solid white 5px;
-    color: white;
-    flex-direction: row;
-    align-content: center;
-    border-radius: 50px 50px 0px 0;
-    font-size: 75%;
-}
-.container{
-    background-color: red;
-    display: flexbox;
-    flex-direction: row;
-    height: 250px;
-    width: 400px;
-    margin-left: 550px;
-    border: solid black 2px;
-    text-align: center;
-}
-.item{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.holiday-container{
-    display: flexbox;
-    background: linear-gradient(-135deg, blue, rgb(183, 0, 255),rgb(183, 0, 255));
-    height: 1500px;
-    width: 1000px;
-    border: solid white 5px;
-    border-radius: 25px;
-    margin-left: 200px;
-}
-.images{
-    margin: 50px 0 0 50px;
-    width: 510px;
-    height: 375px;
-}
-.pictures-1{
-    width: 500px;
-    height: 250px;
-    border-radius: 25px;
-}
-.pictures-2{
-    width: 250px;
-    height: 125px;
-    border-radius: 25px;
-}
-.destination-cotainer{
-    height: 475px;
-    width: 1000px;;
-}
-.des-desc{
-    display: flexbox;
-    position: relative;
-    color: white;
-    width: 350px;
-    height: 375px;
-    margin:  0 0 0 600px;
-    top: -380px;
-    flex-direction: row;
-}
-.des-name{
-    margin-left: 115px;
-    font-weight: bold;
-    height: 50px;
-}
-.des-desc-desc{
-    color: white;
-    margin: 0px 0 0 0;
-    padding-left: 500px;
-    text-align: start;
-}
-.holiday-header{
-    display: flex;
-    background: 
-    linear-gradient(-135deg, blue, rgb(183, 0, 255),rgb(183, 0, 255));
-    width: 450px;
-    color: white;
-    border: solid white 5px;
-    border-radius: 13px 13px 0 0;
-    align-content: center;
-    text-align: center;
-    margin: 0 0 0 500px;
-    position: relative;
-    top: 5px;
-}
 .sign-up-container{
     display: inline-flex;
     background: rgb(179, 236, 247);
@@ -511,6 +376,16 @@ body{
     display: flex;
     flex-wrap:initial;
     width: 20%;
+    margin-left: 25px;
+    margin-top: 5px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+}
+.project-tags-unity-game{
+    display: flex;
+    flex-wrap:initial;
+    width: 24%;
     margin-left: 25px;
     margin-top: 5px;
     height: 100%;
