@@ -601,6 +601,32 @@ Please dont steal code its bad!
     margin-left: 25%;
     font-family: 'robotoregular';
 }
+.under-construction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    bottom: 0%;
+}
+.under-construction-p{
+    display: flex;
+    color: rgb(93, 93, 93);
+    font-family: 'robotoregular';
+    font-weight: bold;
+}
+.under-construction-a{
+    display: flex;
+    color: rgb(0, 116, 183);
+    font-family: 'robotoregular';
+    font-weight: bold;
+    text-decoration: none;
+}
 /*Show unsupported screen low size*/
 @media (max-width:425px) {
     .unsupported-screen{
